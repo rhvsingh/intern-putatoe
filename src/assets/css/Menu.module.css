@@ -1,0 +1,20 @@
+.logo {
+    clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    background-color: var(--primary-color);
+    padding: 7px;
+    border-radius: 25px 25px 8px 8px;
+    max-width: 4rem;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+}
+
+.listIcon {
+    --margin: 0.103rem;
+    margin-top: var(--margin);
+    margin-bottom: var(--margin);
+    width: 2rem;
+    margin-inline: auto;
+}

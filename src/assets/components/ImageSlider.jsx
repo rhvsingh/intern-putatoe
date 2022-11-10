@@ -7,8 +7,7 @@ const ImageSlider = () => {
         height: document.getElementById('root').offsetWidth > 500 ? 400 : 180
 
     })
-
-    console.log(image.height)
+    
     function imageWidthChanger() {
         setImage({
             width: document.getElementById('root').offsetWidth - 18,

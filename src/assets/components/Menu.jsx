@@ -3,26 +3,30 @@ import { AiFillHome } from 'react-icons/ai'
 import { HiUsers } from 'react-icons/hi'
 import { BsFillChatTextFill } from 'react-icons/bs'
 
+import MenuClass from '../css/Menu.module.css'
+
 const Menu = () => {
   return (
     <div className='navigation-menu'>
       <ul>
         <li>
-          <div><AiFillHome /></div>
-          Home
+          <AiFillHome className='icons' />
+          <div>Home</div>
         </li>
         <li>
-          <div><HiUsers /></div>
-          Profile
-        </li>
-        <li>Logo</li>
-        <li>
-          <div>Icon</div>
-          Follow List
+          <HiUsers  className='icons' />
+          <div>Profile</div>
         </li>
         <li>
-          <div><BsFillChatTextFill /></div>
-          Chat
+          <div className={MenuClass.logo}><img src='images/logo.webp' alt='Potatoe' /></div>
+        </li>
+        <li>
+          <div className={MenuClass.listIcon}><img src='images/list_icon.png' alt='List Icon' /></div>
+          <div>Follow List</div>
+        </li>
+        <li>
+          <BsFillChatTextFill className='icons' />
+          <div>Chat</div>
         </li>
       </ul>
     </div>

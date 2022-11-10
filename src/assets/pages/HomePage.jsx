@@ -14,7 +14,6 @@ const HomePage = () => {
                 <ImageSlider />
                 <Services />
             </PageLayout>
-
             <Menu />
         </>
     )
