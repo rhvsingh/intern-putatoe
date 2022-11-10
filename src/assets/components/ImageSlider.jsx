@@ -21,10 +21,10 @@ const ImageSlider = () => {
     }, [])
 
     const images = [
-        { url: "intern-potatoe/images/banner/super_saving.webp" },
-        { url: "intern-potatoe/images/banner/covid_saving.webp" },
-        { url: "intern-potatoe/images/banner/saving_cooking_product.webp" },
-        { url: "intern-potatoe/images/banner/saving_daily_products.webp" },
+        { url: "intern-putatoe/images/banner/super_saving.webp" },
+        { url: "intern-putatoe/images/banner/covid_saving.webp" },
+        { url: "intern-putatoe/images/banner/saving_cooking_product.webp" },
+        { url: "intern-putatoe/images/banner/saving_daily_products.webp" },
     ];
     return (
         <div className='image-slider section-padding-bgcolor'>
