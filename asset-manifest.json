@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/intern-potatoe/static/css/main.85862f5f.css",
-    "main.js": "/intern-potatoe/static/js/main.499efe36.js",
+    "main.js": "/intern-potatoe/static/js/main.c4103e62.js",
     "static/js/787.ae6770d9.chunk.js": "/intern-potatoe/static/js/787.ae6770d9.chunk.js",
     "index.html": "/intern-potatoe/index.html",
     "main.85862f5f.css.map": "/intern-potatoe/static/css/main.85862f5f.css.map",
-    "main.499efe36.js.map": "/intern-potatoe/static/js/main.499efe36.js.map",
+    "main.c4103e62.js.map": "/intern-potatoe/static/js/main.c4103e62.js.map",
     "787.ae6770d9.chunk.js.map": "/intern-potatoe/static/js/787.ae6770d9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85862f5f.css",
-    "static/js/main.499efe36.js"
+    "static/js/main.c4103e62.js"
   ]
 }
