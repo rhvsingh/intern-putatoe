@@ -18,10 +18,10 @@ const Menu = () => {
           <div>Profile</div>
         </li>
         <li>
-          <div className={MenuClass.logo}><img src='intern-putatoe/images/logo.webp' alt='Potatoe' /></div>
+          <div className={MenuClass.logo}><img src='./images/logo.webp' alt='Potatoe' /></div>
         </li>
         <li>
-          <div className={MenuClass.listIcon}><img src='intern-putatoe/images/list_icon.png' alt='List Icon' /></div>
+          <div className={MenuClass.listIcon}><img src='./images/list_icon.png' alt='List Icon' /></div>
           <div>Follow List</div>
         </li>
         <li>

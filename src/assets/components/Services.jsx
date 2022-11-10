@@ -44,7 +44,7 @@ const Services = () => {
     <div className='services section-padding-bgcolor'>
       {data.length > 0 && data.map((item,i) => <Service details={item} key={i} />)}
       <div className='services-child'>
-        <div className='service-image-child'><img src='intern-putatoe/images/service_logo/see_more.png' alt='See More' /></div>
+        <div className='service-image-child'><img src='./images/service_logo/see_more.png' alt='See More' /></div>
         <div>See More</div>
       </div>
       
