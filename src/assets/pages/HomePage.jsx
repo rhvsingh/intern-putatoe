@@ -5,6 +5,7 @@ import Header from '../components/Header'
 import ImageSlider from '../components/ImageSlider'
 import Menu from '../components/Menu'
 import Services from '../components/Services'
+import Categories from '../components/Categories'
 
 const HomePage = () => {
     return (
@@ -13,6 +14,7 @@ const HomePage = () => {
             <PageLayout>
                 <ImageSlider />
                 <Services />
+                <Categories />
             </PageLayout>
             <Menu />
         </>
