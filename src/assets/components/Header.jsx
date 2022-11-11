@@ -9,6 +9,7 @@ const Header = () => {
   const [searchProduct, setSearchProduct] = useState('');
 
   return (
+    <>
     <header>
       <div className='map-noti-cart d-flex justify-center align-center'>
         <label htmlFor="delivery-location" className={`${HeaderClasses.deliveryLabel} d-flex align-center`}>
@@ -18,11 +19,12 @@ const Header = () => {
         <div className={`${HeaderClasses.bellCart} d-flex align-center`}>
           <div className='pos-rel'>
             <FaBell className={HeaderClasses.bell} />
-            <span className={HeaderClasses.notiCount}>0</span>
+            <div className={`${HeaderClasses.notiCount} d-flex align-center justify-center`}>0</div>
           </div>
           <FaCartPlus className={HeaderClasses.cart} />
         </div>
       </div>
+    </header>
       <div className={`${HeaderClasses.searchInput} d-flex justify-center  align-center`}>
         <label htmlFor='search-product' className={HeaderClasses.searchLabel}>
           <FaSearch className={HeaderClasses.searchIcon} />
@@ -30,7 +32,7 @@ const Header = () => {
         </label>
         <FaMicrophone className={HeaderClasses.searchMicrophone} />
       </div>
-    </header>
+    </>
   )
 }
 

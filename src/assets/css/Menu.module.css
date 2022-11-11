@@ -3,7 +3,7 @@
     background-color: var(--primary-color);
     padding: 7px;
     border-radius: 25px 25px 8px 8px;
-    max-width: 4rem;
+    max-width: 3rem;
 }
 
 .logo img {
@@ -15,6 +15,6 @@
     --margin: 0.103rem;
     margin-top: var(--margin);
     margin-bottom: var(--margin);
-    width: 2rem;
+    width: 1.8rem;
     margin-inline: auto;
 }

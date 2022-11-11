@@ -8,6 +8,7 @@ import Services from '../components/Services'
 import Categories from '../components/Categories'
 
 const HomePage = () => {
+
     return (
         <>
             <Header />
