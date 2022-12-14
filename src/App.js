@@ -4,7 +4,7 @@ import './style.css'
 
 function App() {
   return (
-    <div className="main">
+    <div className="main mob-max-width">
       <HomePage />
     </div>
   );

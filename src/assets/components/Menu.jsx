@@ -7,7 +7,7 @@ import MenuClass from '../css/Menu.module.css'
 
 const Menu = () => {
   return (
-    <div className='navigation-menu'>
+    <div className='navigation-menu mob-max-width'>
       <ul>
         <li>
           <AiFillHome className='icons' />
